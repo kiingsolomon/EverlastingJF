@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "14955409993",
+    "project_id": "everlasting-joy-foundation",
+    "storage_bucket": "everlasting-joy-foundation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14955409993:android:5fd6424261efc8058c0598",
+        "android_client_info": {
+          "package_name": "com.mycompany.ejf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14955409993-ppm7ncj8f4h0tr5mphej5fs8afiqgclg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJTaCXTeTN-KTNpa-vh7P_iPFJ1wA_7DY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14955409993-ppm7ncj8f4h0tr5mphej5fs8afiqgclg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "14955409993-r3sd1ej5gnp1tdr0o3q6s2e92kd0e65u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ejf"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
