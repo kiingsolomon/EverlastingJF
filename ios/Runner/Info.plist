@@ -39,7 +39,7 @@
         <dict>
             <key>CFBundleIconFiles</key>
             <array>
-                <string>logo_(1)_1.png</string>
+                <string>ic_launcher</string>
             </array>
         </dict>
     </dict>
