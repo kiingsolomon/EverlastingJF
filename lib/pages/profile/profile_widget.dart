@@ -115,7 +115,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-                context.pushNamed('PaymentPage');
+                await launchURL('https://theeverlastingjoyfoundation.org/');
               },
               child: Material(
                 color: Colors.transparent,

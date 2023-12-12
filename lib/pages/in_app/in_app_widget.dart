@@ -254,7 +254,7 @@ class _InAppWidgetState extends State<InAppWidget>
                                                   6.0, 12.0, 6.0, 0.0),
                                           child: FFButtonWidget(
                                             onPressed: () async {
-                                              context.pushNamed('PaymentPage');
+                                              await launchURL('https://theeverlastingjoyfoundation.org/');
                                             },
                                             text: 'Donate Now',
                                             options: FFButtonOptions(
