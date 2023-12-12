@@ -80,7 +80,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(8.0),
                       child: Image.asset(
-                        'assets/images/logo_(1)_1.png',
+                        'assets/logo_(1)_1.png',
                         width: 150.0,
                         height: 150.0,
                         fit: BoxFit.fitHeight,

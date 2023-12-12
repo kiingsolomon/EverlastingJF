@@ -155,32 +155,31 @@ class _SpiritualOutreachMakeanImpactWidgetState
               ),
             ),
             Align(
-              alignment: AlignmentDirectional(0.0, 0.0),
+              alignment: AlignmentDirectional(0.00, 0.00),
               child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 24.0),
+                padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 24),
                 child: FFButtonWidget(
                   onPressed: () async {
-                    context.pushNamed('PaymentPage');
+                    await launchURL('https://theeverlastingjoyfoundation.org/');
                   },
                   text: 'Make a Donation',
                   options: FFButtonOptions(
-                    width: 300.0,
-                    height: 60.0,
-                    padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    iconPadding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                    width: 300,
+                    height: 60,
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                    iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle:
-                        FlutterFlowTheme.of(context).headlineSmall.override(
-                              fontFamily: 'Outfit',
-                              color: Color(0xFFF5DA01),
-                            ),
-                    elevation: 3.0,
+                    FlutterFlowTheme.of(context).headlineSmall.override(
+                      fontFamily: 'Outfit',
+                      color: Color(0xFFF5DA01),
+                    ),
+                    elevation: 3,
                     borderSide: BorderSide(
                       color: Colors.transparent,
-                      width: 1.0,
+                      width: 1,
                     ),
-                    borderRadius: BorderRadius.circular(40.0),
+                    borderRadius: BorderRadius.circular(40),
                   ),
                 ),
               ),

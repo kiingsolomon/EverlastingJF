@@ -92,7 +92,7 @@ class _PaymentPageWidgetState extends State<PaymentPageWidget> {
             ClipRRect(
               borderRadius: BorderRadius.circular(8.0),
               child: Image.asset(
-                'assets/images/logo_(1)_1.png',
+                'assets/logo_(1)_1.png',
                 width: 300.0,
                 height: 200.0,
                 fit: BoxFit.contain,

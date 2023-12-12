@@ -245,15 +245,18 @@ void showSnackbar(
           if (loading)
             Padding(
               padding: EdgeInsetsDirectional.only(end: 10.0),
-              child: Container(
-                height: 20,
-                width: 20,
-                child: const CircularProgressIndicator(
-                  color: Colors.white,
+              child: Expanded(
+                child: Container(
+                  height: 20,
+                  child: const CircularProgressIndicator(
+                    color: Colors.white,
+                  ),
                 ),
               ),
             ),
-          Text(message),
+          Expanded(
+            child: Text(message),
+          ),
         ],
       ),
       duration: Duration(seconds: duration),

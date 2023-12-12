@@ -14,7 +14,7 @@ import '../cloud_functions/cloud_functions.dart';
 final _isProd = false;
 
 // Stripe Credentials
-const _kProdStripePublishableKey = '';
+const _kProdStripePublishableKey = 'pk_live_51KiIRfFCItLwfQONiBM5hmG6m5wgPswC8HNv94mftY33ePBKZPeBvOZCvpsGYw03UyZbS0cOk7tyk9QSrWmzzEKp00KbljSteL';
 const _kTestStripePublishableKey =
     'pk_test_51NYZWdH1OwopAoTucMOo1ddoIHI7ShrDCtT81qvqZk0YM4OtkF2L8VW3qYiGJvKP57xrmVsN0kumDkzxsbsQzbjf00tbwcChEw';
 const _kAppleMerchantId = '';
