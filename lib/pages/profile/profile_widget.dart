@@ -5,6 +5,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'profile_model.dart';
 export 'profile_model.dart';
 
@@ -256,6 +257,67 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                       children: [
                         Text(
                           'Become a Volunteer',
+                          style: FlutterFlowTheme.of(context).bodyLarge,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+            child: InkWell(
+              splashColor: Colors.transparent,
+              focusColor: Colors.transparent,
+              hoverColor: Colors.transparent,
+              highlightColor: Colors.transparent,
+              onTap: () async {
+                await launchUrl(Uri(
+                    scheme: 'mailto',
+                    path: 'info@theeverlastingjoyfoundation.org/',
+                    query: {
+                      'subject': 'Account Deletion Request',
+                    }
+                        .entries
+                        .map((MapEntry<String, String> e) =>
+                    '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+                        .join('&')));
+              },
+              child: Material(
+                color: Colors.transparent,
+                elevation: 0.0,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+                child: Container(
+                  width: double.infinity,
+                  height: 60.0,
+                  decoration: BoxDecoration(
+                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                    boxShadow: [
+                      BoxShadow(
+                        blurRadius: 3.0,
+                        color: Color(0x33000000),
+                        offset: Offset(0.0, 1.0),
+                      )
+                    ],
+                    borderRadius: BorderRadius.circular(8.0),
+                    border: Border.all(
+                      color: FlutterFlowTheme.of(context).secondaryBackground,
+                      width: 0.0,
+                    ),
+                  ),
+                  child: Padding(
+                    padding:
+                    EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 4.0, 0.0),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Account Deletion Request',
                           style: FlutterFlowTheme.of(context).bodyLarge,
                         ),
                       ],
