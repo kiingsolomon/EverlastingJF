@@ -274,16 +274,8 @@ class _ProfileWidgetState extends State<ProfileWidget> {
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-                await launchUrl(Uri(
-                    scheme: 'mailto',
-                    path: 'info@theeverlastingjoyfoundation.org/',
-                    query: {
-                      'subject': 'Account Deletion Request',
-                    }
-                        .entries
-                        .map((MapEntry<String, String> e) =>
-                    '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
-                        .join('&')));
+                await launchURL(
+                    ' https://theeverlastingjoyfoundation.org/account-deletion-application/');
               },
               child: Material(
                 color: Colors.transparent,
