@@ -76,7 +76,7 @@ class _PaymentPageWidgetState extends State<PaymentPageWidget> {
         actions: [],
         flexibleSpace: FlexibleSpaceBar(
           title: Text(
-            'Make a Donation',
+            'Visit Our Website',
             style: FlutterFlowTheme.of(context).headlineMedium,
           ),
           centerTitle: true,

@@ -256,7 +256,7 @@ class _InAppWidgetState extends State<InAppWidget>
                                             onPressed: () async {
                                               await launchURL('https://theeverlastingjoyfoundation.org/');
                                             },
-                                            text: 'Donate Now',
+                                            text: 'Visit Our Website',
                                             options: FFButtonOptions(
                                               width: double.infinity,
                                               height: 44.0,

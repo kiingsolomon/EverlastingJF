@@ -164,7 +164,7 @@ class _HealthcareOutreachEnvironmentalDevelopmentWidgetState
                   onPressed: () async {
                     await launchURL('https://theeverlastingjoyfoundation.org/');
                   },
-                  text: 'Make a Donation',
+                  text: 'Visit Our Website',
                   options: FFButtonOptions(
                     width: 300,
                     height: 60,
